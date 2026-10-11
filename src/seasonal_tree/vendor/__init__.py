@@ -1,1 +1,1 @@
-"""Mentor supplied hybrid code; attribution and original hashes in provenance/."""
+"""Regional hybrid population and establishment models."""
