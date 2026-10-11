@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppom"
+version = "0.1.0"
+description = "Seasonal regional-presence hybrid inference on a fixed phylogenetic tree"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "numba>=0.61,<1", "matplotlib>=3.7,<4"]
+
+[project.scripts]
+ppom = "seasonal_tree.cli:main"
+seasonal-tree = "seasonal_tree.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
