@@ -1,6 +1,6 @@
-"""Mentor regional-presence model on the existing five-tip effective-time tree.
+"""Regional-presence model on the existing five-tip effective-time tree.
 
-The supplied Hybrid/RegionalHybrid classes are imported unchanged. Equation (1)
+The Hybrid/RegionalHybrid classes are imported unchanged. Equation (1)
 of ecotype_model2 supplies the missing seasonal landscape protocol. The tree
 adapter preserves established populations at splits and stops at first-hit
 colonisation-event counts. Fixed-n/lottery demography is retained, and differs
@@ -278,9 +278,9 @@ class MentorTree(_old.RepairedTree):
         return n,np.array([ticks,updates,skipped,jumps,0])
 
     def manifest(self):
-        return dict(model='Mentor regional-presence seasonal hybrid; fixed-n/lottery',
-            supplied_core_imported=['ecotype_hybrid.py','ecotype_regional.py'],
-            supplied_sources_unmodified=False, supplied_change="relative imports only in vendor/ecotype_regional.py",missing_base_protocol='Equation (1) reconstructed under hard selection',
+        return dict(model='Regional-presence seasonal hybrid; fixed-n/lottery',
+            regional_core_modules=['ecotype_hybrid.py','ecotype_regional.py'],
+            regional_core_import_change="relative imports only in vendor/ecotype_regional.py",missing_base_protocol='Equation (1) reconstructed under hard selection',
             offspring_per_breeder=2,offspring_distribution='fixed number, not old Poisson(2)',
             dispersal=.02,mutation=self.mu,environment_known=True,
             pi_solver='Same fixed-n branching PGF; spectral classification and sparse Newton',

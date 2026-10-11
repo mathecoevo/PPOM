@@ -154,7 +154,7 @@ class JitTree(base.MentorTree):
     def manifest(self):
         result=super().manifest()
         import hashlib
-        result.update(numerical_kernel='Numba hard-ecotype specialization of supplied regional model',
+        result.update(numerical_kernel='Numba hard-ecotype specialization of regional model',
             pi_solver='certified vacant component + monotone Gauss-Seidel with exact diagonal quadratic',
             sha256_numerical_kernel=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
             seed_correspondence='Numba MT random streams; distribution preserved, individual histories differ from PCG streams')
