@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "public_inputs_exact": true,
+  "all_27_root_maps_exact": true,
+  "dispersal_and_fixed_offspring_gamma_exact": true,
+  "checks": [
+    {
+      "region": 0,
+      "full_forward_exact": true,
+      "partial_forward_exact": true
+    },
+    {
+      "region": 13,
+      "full_forward_exact": true,
+      "partial_forward_exact": true
+    },
+    {
+      "region": 26,
+      "full_forward_exact": true,
+      "partial_forward_exact": true
+    }
+  ]
+}

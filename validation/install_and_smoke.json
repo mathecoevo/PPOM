@@ -1,0 +1,19 @@
+{
+  "python": "3.14.4",
+  "standard_wheel_install": true,
+  "imported_from_installed_package_outside_repository": true,
+  "core_unit_checks_passed": 8,
+  "forward_history_status": 0,
+  "unknown_root_replay_draws": [
+    0,
+    12,
+    24
+  ],
+  "known_root_replay_draws": [
+    0,
+    7,
+    14
+  ],
+  "observed_cold_probabilities_positive": true,
+  "scope": "Installation and short-chain replay checks; these do not establish full-landscape posterior convergence."
+}

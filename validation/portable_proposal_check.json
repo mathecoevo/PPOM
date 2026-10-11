@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "proposal_implementation": {
+    "passed": true,
+    "actual_production_propose_function_used": true,
+    "root_TV_to_exact": 0.013279550376950219,
+    "predictive_TV_to_exact": 0.0008475683051800452,
+    "likelihood_Rhat": 1.0003635376480158,
+    "likelihood_ESS": 12365.171012113271,
+    "retained_per_chain": 48000,
+    "root_changes_per_chain": [
+      4034,
+      3695,
+      3906,
+      3887
+    ],
+    "every_returned_proposal_has_exactly_one_region": true,
+    "uniform_prior_over_locations": true,
+    "symmetric_root_proposals": true
+  },
+  "cold_epsilon": 0.0,
+  "hot_draws_not_used_as_posterior": true,
+  "stored_spatial_enumeration_integration": [
+    {
+      "protocol": "focal",
+      "root_masks": [
+        1,
+        2,
+        4
+      ],
+      "exact_root_posterior": [
+        0.6934487079848242,
+        0.3065512920151758,
+        0.0
+      ],
+      "scope": "24-cell stored spatial enumeration, 4096 histories per root",
+      "enumeration_not_recomputed_in_this_command": true
+    },
+    {
+      "protocol": "all",
+      "root_masks": [
+        1,
+        2,
+        4
+      ],
+      "exact_root_posterior": [
+        0.9999999999999889,
+        0.0,
+        0.0
+      ],
+      "scope": "24-cell stored spatial enumeration, 4096 histories per root",
+      "enumeration_not_recomputed_in_this_command": true
+    }
+  ],
+  "seconds": 9.945226583004114
+}

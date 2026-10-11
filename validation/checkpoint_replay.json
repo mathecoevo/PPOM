@@ -1,0 +1,54 @@
+{
+  "completed_checkpoint_extension": "20 to 30 steps, burn=5",
+  "reference": "uninterrupted 30 steps with identical seed and inputs",
+  "posterior_histories_predictions_and_rng_exactly_equal": true,
+  "maximum_trace_roundoff_difference": 1.1368683772161603e-13,
+  "arrays": {
+    "posterior.npz": {
+      "q": {
+        "exact": true
+      },
+      "roots": {
+        "exact": true
+      },
+      "region_mass": {
+        "exact": true
+      },
+      "seeds": {
+        "exact": true
+      },
+      "trace": {
+        "exact": false
+      },
+      "ancestor_mean": {
+        "exact": true
+      },
+      "best_root": {
+        "exact": true
+      },
+      "best_seeds": {
+        "exact": true
+      },
+      "best_q": {
+        "exact": true
+      },
+      "best_starts": {
+        "exact": true
+      },
+      "best_ends": {
+        "exact": true
+      }
+    },
+    "continuation.npz": {
+      "roots": {
+        "exact": true
+      },
+      "seeds": {
+        "exact": true
+      },
+      "rng_state_json": {
+        "exact": true
+      }
+    }
+  }
+}
