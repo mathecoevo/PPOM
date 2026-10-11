@@ -1,13 +1,6 @@
-The regional hybrid classes ecotype_hybrid.py and ecotype_regional.py were
-supplied by Xia Hua. In the packaged copy, ecotype_regional.py uses a relative
-import of Hybrid; the model equations are unchanged.
+Implementation notes
 
-The hard-ecotype landscape protocol, phylogenetic tree adapter, effective-clock
-propagation, numerical acceleration, latent-history inference and one-region
-root proposals were developed by Aobo Wang in this project. Source hashes and
-validation records accompany this repository.
-
-The earlier capped-Poisson tree simulator and the fixed-two-offspring seasonal
-lottery model use different demographic laws. Observations from the former are
-included as a transfer benchmark, not as a same-model validation.
-
+The regional seasonal model uses fixed-two-offspring lottery demography.
+The earlier capped-Poisson tree simulator uses a different demographic law;
+its observations are included as a transfer benchmark rather than a
+same-model validation.
